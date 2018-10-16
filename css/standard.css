@@ -1,0 +1,55 @@
+body {
+    margin: 30px;
+    font-family: georgia, times, serif;
+    text-align: center;
+    color: black;
+    background: white;
+}
+.small {
+    font-size: lem;
+    color: #555;
+}
+.large {
+    font-size: 2em;
+}
+
+a {
+    color: black;
+}
+a:link  { text-decoration: none;}
+a:visited { text-decoration: none;}
+a:hover { text-decoration: underline;}
+.footer {
+    font-size: lem;
+    font-style: italic;
+    color: #555;
+    line-height: 1.5em;
+}
+.osu:link {
+    color:black;
+    text-decoration:none;
+}
+.osu:visited {
+    color:black;
+    text-decoration:none;
+}
+.osu:hover {
+    color:#cc0000;
+    text-decoration:none;
+}
+.modified {
+    color: #555;
+    font-size:.8em;
+}
+
+
+a img { display:none; }
+a:hover img { display:block; }
+
+#github-wig {
+  position: fixed;
+  right: 0;
+  top: 30%;
+  width: 10em;
+  margin-top: -2.5em;
+}
